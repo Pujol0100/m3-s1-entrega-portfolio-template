@@ -1,0 +1,41 @@
+.li {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 13.7rem;
+    justify-content: center;
+    border: .0625rem solid var(--color-grey-3);
+    border-radius: 1.5625rem;
+    padding: 1rem 1rem 1.25rem 2.0625rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.125rem;
+}
+
+.h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img {
+    width: 37px;
+    height: 35.9792px;
+}
+
+.p {
+    margin-bottom: 2rem;
+}
+
+.a {
+    color: var(--color-brand-1);
+    text-decoration: none;
+}
+
+@media (min-width: 43.75rem) {
+    .li {
+        flex: 1 0 20rem;
+    }
+}
